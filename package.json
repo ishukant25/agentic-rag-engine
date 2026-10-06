@@ -1,0 +1,18 @@
+{
+  "name": "agentic-rag-engine",
+  "version": "1.0.0",
+  "description": "Autonomous Agentic Flow & RAG Execution Engine with MCP Support",
+  "main": "dist/mcp_server.js",
+  "scripts": {
+    "build": "tsc",
+    "mcp": "ts-node src/mcp_server.ts"
+  },
+  "keywords": ["agentic-ai", "rag", "langgraph", "mcp", "llm", "autonomous-agents"],
+  "author": "Ishukant",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

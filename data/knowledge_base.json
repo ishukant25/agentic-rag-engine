@@ -1,0 +1,26 @@
+[
+  {
+    "id": "doc-01",
+    "title": "Autonomous Agentic Architecture Guidelines",
+    "category": "architecture",
+    "content": "An agentic system relies on a cyclical control loop: Plan, Act (Tool Calling), Observe, and Evaluate. Unlike traditional linear LLM pipelines, an agent maintains mutable state across iterations and dynamically selects tools based on environmental observations."
+  },
+  {
+    "id": "doc-02",
+    "title": "Deterministic Web Audits vs LLM Hallucinations",
+    "category": "performance",
+    "content": "For technical website audits including Core Web Vitals, SSL certificates, and metadata scoring, deterministic parsers (such as Cheerio or BeautifulSoup) reduce latency from 45 seconds to under 2 milliseconds while eliminating LLM hallucination."
+  },
+  {
+    "id": "doc-03",
+    "title": "Cold Outreach Anti-Spam & Deliverability Protocols",
+    "category": "outreach",
+    "content": "High deliverability email engines enforce Spintax randomization, plain-text MIME structures, and cryptographic zero-width space injection. These ensure distinct byte signatures for every outgoing message to pass machine learning spam filters."
+  },
+  {
+    "id": "doc-04",
+    "title": "Multi-Model Fallback and Latency Optimization",
+    "category": "infrastructure",
+    "content": "Production AI systems deploy an automated fallback cascade: routing primary high-throughput tasks to Groq LPUs (Llama 3.3 @ 800 tokens/sec), with automatic failover to NVIDIA NIM and Google Gemini upon encountering HTTP 429 rate limits."
+  }
+]
